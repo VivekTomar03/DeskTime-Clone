@@ -1,0 +1,158 @@
+#signupbox{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    background-color: #4ea819;
+    text-align: center;
+    padding-bottom: 50px;
+  
+    
+   
+}
+#signupbox div{
+    /* border: 1px solid red; */
+    padding-top: 80px;
+}
+#signupbox h1{
+    font-size: 45px;
+    color: white;
+}
+#signupbox input{
+    width: 300px;
+    height: 40px;
+    font: larger;
+}
+#signupbox button{
+    width: 300px;
+    height: 40px;
+    font: larger;
+    border:1px solid white;
+    color: white;
+    background-color: #4ea819;
+    border-radius: 3px;
+}
+#signupbox button:hover{
+    background-color: white;
+    color: black;
+}
+#signupbox p{
+    font-size: 20px;
+     color: white;
+}
+
+#footer{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer>div{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+#footer>div a{
+    color: #717171;
+    text-decoration: none;
+   
+    
+}
+#footer>div a:hover{
+    text-decoration:underline;
+    text-decoration-color: #4ea819;
+    font-weight: bold;
+    
+}
+#bottom>img{
+    width: 100%;
+}
+#nav{
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(188, 195, 202, 0.2) 0px 8px 24px;
+    top: 3px;
+    background-color: white;
+   
+
+}
+#logo>a>img{
+  
+    width: 50%;
+    margin-top: 2px;
+   
+    margin-left: 70px;
+}
+#option{
+    /* border: 1px solid red; */
+    width: 80%;
+   height: fit-content;
+    margin-right: 150px;
+   font-size: 30px;
+  
+   
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+}
+#login{
+    height: 50px;
+    width: 90px;
+    color: black;
+    background-color: white;
+   border-color: grey;
+   margin-left: 15px;
+   margin-right: 15px;
+  
+   
+   
+}
+#login:hover{
+    background-color: rgb(228, 221, 221);
+}
+#signup{
+    height: 50px;
+    width: 90px;
+    color: white;
+    background-color:  #4ea819;
+}
+#signup:hover{
+    background-color: #3f8c12;
+}
+
+#navhr{
+    background-color: #4ea819;
+    width: 100%;
+    height: 4px;
+    position: fixed;
+    top: 0;
+}
+#navA{
+    color: #656769;
+    padding-top: 10px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+#navA:hover{
+   text-decoration: underline;
+   text-decoration-color: #4ea819;
+   color: #4ea819;
+   
+}
+#medscr{
+    display: none;
+}
+
+#answer{
+    margin-top: 150px;
+    text-align: center;
+}
+img{
+    width: 50%;
+}

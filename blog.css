@@ -1,3 +1,4 @@
+
 #nav{
     position:fixed;
     width: 100%;
@@ -8,10 +9,11 @@
     top: 3px;
     background-color: white;
    
+
 }
 #logo>a>img{
   
-    width: 40%;
+    width: 45%;
     margin-top: 2px;
    
     margin-left: 70px;
@@ -74,7 +76,6 @@
    color: #4ea819;
    
 }
-
 #medscr{
     display: none;
 }
@@ -82,9 +83,8 @@
     width: 100%;
     height: 400px;
     margin-top: 60px;
-    background-color: #4ea819;
+    
     text-align: center;
-    align-items: center;
   
     
    
@@ -95,15 +95,15 @@
 }
 #signupbox h1{
     font-size: 45px;
-    color: white;
+    color: black;
 }
 #signupbox input{
-    width: 300px;
+    width: 200px;
     height: 40px;
     font: larger;
 }
 #signupbox button{
-    width: 300px;
+    width: 200px;
     height: 40px;
     font: larger;
     border:1px solid white;
@@ -117,109 +117,60 @@
 }
 #signupbox p{
     font-size: 20px;
-     color: white;
+     color: black;
 }
-
-#group{
-   width: 100%;
-   height: auto; 
+#category>a{
+    margin: 20px;
+    font-size: 20px;
+    color: #4ea819;
+    text-decoration: none;
+}
+#category>a:hover{
+     text-decoration: underline;
+     color: black;
   
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   gap: 20px;
-  padding-left: 5%;
-  margin-top: 50px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#group>div>h1{
-    font-size: 40px;
+#bg1{
+    display: flex;
+     justify-content: space-around;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 50px;
 }
+#bg1>div >img{
+   width: 90%;
+  
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+ a:hover{
+    text-decoration: underline;
+    color: #4ea819;
+}
+#bg2 img{
+    width: 50%;
+}
+#bg2{
 
-#group>div>p{
+    display: flex;
+   justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+p{
     font-size: 20px;
     color: #656769;
-   
 }
-#milestone{
-    text-align: center;
-    margin-top: 50px;
-}
-#mile1{
+#signupbox{
     width: 100%;
-    height: auto;
-    
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    
-}
-
-#mile1>div:nth-child(1){
-    margin-right: 0px;
-    text-align: center;
-    margin-left: 50px;
-
- }
- #mile1>div:nth-child(2){
-    margin-right: 100px;
-    text-align: center;
-
- }
- #mile1>div>h5{
-    color: #4ea819;
-    font-size: larger;
-
- }
-
-
-
-
-
- #mile2{
-    width: 100%;
-    height: auto;
-    
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
-    
-}
-
-#mile2>div:nth-child(1){
-    margin-right: 0px;
-    text-align: center;
-    margin-left: 50px;
-
- }
- #mile2>div:nth-child(2){
-    margin-right: 100px;
-    text-align: center;
-
- }
- #mile2>div>h5{
-    color: #4ea819;
-    font-size: larger;
-
- }
- hr{
-    border-top: 3px dashed  #4ea819;
- }
- #ytlink{
-    margin-left: 35%;
-    margin-top: 50px;
- }
-
-
-
- #signupbox{
-    width: 100%;
-    height: auto;
+    height: 400px;
     margin-top: 60px;
-    background-color: #4ea819;
+    background-color:#e8eaec;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  
     
    
 }
@@ -229,7 +180,7 @@
 }
 #signupbox h1{
     font-size: 45px;
-    color: white;
+    color: black;
 }
 #signupbox input{
     width: 300px;
@@ -251,9 +202,8 @@
 }
 #signupbox p{
     font-size: 20px;
-     color: white;
+     color: black;
 }
-
 #footer{
     width: 100%;
     height: 500px;
@@ -283,7 +233,34 @@
     width: 100%;
 }
 
+
+  #fix_pos{
+    /* border: solid red; */
+    width: 3%;
+    position: fixed;
+    /* margin-top: 10%; */
+    /* background: red; */
+    margin-top: -15%;
+  }
+  
+  #fix_pos>a > img{
+    width: 100%;
+    height: auto;
+    /* border: solid pink; */
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 5px;
+    
+  }
 @media screen and (min-width:700px) and (max-width:950px){
+    #fix_pos{
+        /* border: solid red; */
+        width: 4%;
+        position: fixed;
+        /* margin-top: 10%; */
+        /* background: red; */
+        margin-top: -25%;
+      }
     #logo>a>img{
         margin-left: 45%;
         width: 35%;
@@ -302,40 +279,18 @@
    height: 40px;
    font-size: larger;
   }
-
-  #group{
-    grid-template-columns:repeat(1,1fr);
-  }
-  #group>div>img{
-    align-items: center;
-    margin-left: 10%;
-  }
-  #mile1{
-   flex-direction: column-reverse;
-   text-align: center;
-   align-items: center;
-
-  }
-  #mile1 img{
-    margin-left: 10%;
-  }
-  #mile2{
-    flex-direction: column;
-   text-align: center;
-    align-items: center;
-   
-  }
-  #mile2 h1 , #mile2 p , #mile2 h5{
-    margin-left: 10%;
-  }
-  #ytlink{
-    margin-left: 20%;
-    margin-top: 50px;
-  }
+    #bg1{
+        display: flex;
+        flex-direction: column;
+    }
+    #bg2{
+        display: grid;
+        grid-template-columns: repeat(2,40%);
+    }
 }
 @media screen and (min-width:100px) and (max-width:699px){
     #logo>a>img{
-        display:none;
+      display: none;
   }
   #option{
    display:none;
@@ -343,7 +298,7 @@
   #medscr{
    display: block;
    width: 200px;
-   margin-right: 150px;
+   margin-right: 100px;
    margin-top: 20px;
   }
   #medscr>select{
@@ -351,35 +306,21 @@
    height: 40px;
    font-size: larger;
   }
-
-  #group{
-    grid-template-columns:repeat(1,1fr);
-  }
-  #group>div>img{
-    align-items: center;
-    
-  }
-  #mile1{
-   flex-direction: column-reverse;
-   text-align: center;
-   align-items: center;
-
-  }
-  #mile1 img{
-    margin-left: 15%;
-  }
-  #mile2{
-    flex-direction: column;
-   text-align: center;
-    align-items: center;
-   
-  }
-  #mile2 h1 , #mile2 p , #mile2 h5{
-    margin-left: 20%;
-  }
-  #ytlink{
-    margin-left: 15%;
-    margin-top: 50px;
-  }
- 
+    #bg1{
+        display: flex;
+        flex-direction: column;
+    }
+    #bg1 img{
+        width: 40%;
+    }
+    #bg2{
+        display: grid;
+        grid-template-columns: repeat(1,40%);
+        margin-left: -10%;
+        margin-right: 10%;
+    }
+    #bg2 img{
+        width: 180%;
+        
+    }
 }
