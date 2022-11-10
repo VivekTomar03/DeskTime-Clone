@@ -82,7 +82,7 @@
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 150px;
      
 }
 #leftyt{
@@ -210,11 +210,11 @@
     padding-top: 50px;
     margin-top: 20px;
    
-   
+    
 }
 #featurebtn button{
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 30px;
     background-color: #d1d1d3;
     font-size: larger;
     border: none;
@@ -239,7 +239,7 @@
     grid-template-columns: repeat(5,17%);
     margin-left: 100px;
     margin-top: 30px;
-    gap: 30px;
+    gap: 40px;
 }
 #row4{
    
@@ -247,7 +247,7 @@
     grid-template-columns: repeat(3,22%);
     margin-left: 350px;
     margin-top: 30px;
-    gap: 15px;
+    gap: 25px;
 }
 #row1{
    
@@ -517,9 +517,10 @@ img {vertical-align: middle;} */
     display: none;
 }
 @media screen and (min-width:700px) and (max-width:950px){
-   #logo>img{
+   #logo>a>img{
          margin-left: 45%;
-         width: 40%;
+        width: 40%;
+       
    }
    #option{
     display:none;
@@ -602,7 +603,7 @@ img {vertical-align: middle;} */
 
 
 @media screen and (min-width:100px) and (max-width:699px){
-    #logo>img{
+    #logo>a>img{
           display: none;
     }
     #option{
@@ -627,6 +628,7 @@ img {vertical-align: middle;} */
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        margin-top: 150px;
         
        }
        #ytlink>iframe{
