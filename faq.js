@@ -17,8 +17,8 @@ let head2_data = localStorage.getItem("head2")
 
 let search = document.querySelector("#search").input
 
-let button = document.querySelector("#searchbtn")
-button.addEventListener("click", function(){
+let button2 = document.querySelector("#searchbtn")
+button2.addEventListener("click", function(){
     searchitem()
     
 })
@@ -32,3 +32,10 @@ function searchitem(){
         alert("no data found")
     }
 }
+
+
+let button1 = document.querySelector("#gmailbtn")
+button1.addEventListener("click" , function(){
+  let email1 = document.querySelector("#gmail").value;
+  localStorage.setItem("email" , JSON.stringify(email1) )
+})
