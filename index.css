@@ -90,10 +90,7 @@
     width: 50%;
   
 }
-#ytlink{
-    /* border: 1px solid blue; */
-   
-}
+
 #leftyt>h1{
     font-size:45px;
 }
@@ -107,7 +104,7 @@
     margin-left: 10px;
     font-size: larger;
 }
-#leftyt>button{
+#leftyt button{
     width: 250px;
     height: 50px;
     margin-left: 10px;
@@ -136,10 +133,7 @@
    margin-top: 50px;
    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-#boost_left{
-    /* border: 1px solid blue;
-    */
-}
+
 #boost_right{
     /* border: 1px solid rgb(10, 10, 11); */
    width: fit-content;
@@ -430,12 +424,13 @@ img {vertical-align: middle;} */
    /* border: 1px solid red; */
     margin-top: 60px;
     text-align: center;
+   
 }
-#droplist>details{
+#droplist details{
     font-size: 30px;
     color: #717275;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 10%;
+    margin-left: 17.5%;
     margin-bottom: 20px;
     margin-right: 30%;
     padding: 10px;
@@ -637,9 +632,7 @@ img {vertical-align: middle;} */
       
       
        }
-       #ytlink{
-        /* margin-top: 200px; */
-       }
+      
        #leftyt{
         text-align: center;
         width: 100%;
