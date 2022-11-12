@@ -268,7 +268,7 @@ img {vertical-align: middle;} */
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  /* position: relative; */
+  position: relative;
   margin: auto;
  margin-top: 30px;
  
@@ -281,7 +281,7 @@ img {vertical-align: middle;} */
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
@@ -615,7 +615,7 @@ img {vertical-align: middle;} */
      height: 40px;
      font-size: larger;
     }
-
+ 
     #ytsection{
         width: 100%;
         height: auto;
