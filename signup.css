@@ -148,3 +148,54 @@
 #bottom>img{
     width: 100%;
 }
+
+
+@media screen and (min-width:700px) and (max-width:950px){
+    #logo>a>img{
+          margin-left: 45%;
+         width: 40%;
+        
+    }
+    #option{
+     display:none;
+    }
+    #medscr{
+     display: block;
+     width: 200px;
+     margin-right: 100px;
+     margin-top: 20px;
+    }
+    #medscr>select{
+     width: 200px;
+     height: 40px;
+     font-size: larger;
+    }
+    #details{
+        box-shadow: none;
+      }
+
+}
+
+@media screen and (min-width:100px) and (max-width:699px){
+    #logo>a>img{
+          display: none;
+    }
+    #option{
+     display:none;
+    }
+    #medscr{
+     display: block;
+     width: 200px;
+     margin-right: 100px;
+     margin-top: 20px;
+    }
+    #medscr>select{
+     width: 200px;
+     height: 40px;
+     font-size: larger;
+    }
+
+    #details{
+        box-shadow: none;
+      }
+}

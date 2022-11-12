@@ -117,7 +117,7 @@
   }
   #cards{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     margin-left: 80px;
 
   }
@@ -287,7 +287,7 @@
 #close1{
  margin-left: 350px;
  
-} 
+}
 #help_pop a{
    font-size: xx-large;
    color: #111;
@@ -332,3 +332,62 @@ height: 60px;
   margin-bottom: 50px;
   margin-left: -5px;
 }
+
+#newproject button{
+    width: 300px ;
+    height: 50px;
+  margin: 40px 0px 40px 40%;
+  background-color: #4ea819;
+  color: white;
+  font-size: x-large;
+}
+
+#createprojectpop{
+    width: 30%;
+    height: 600px;
+  
+    color: #111;
+    background-color: #fcf8f8;
+    position: fixed;
+    margin: auto;
+    margin-left: 40%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+    display: none;
+}
+#createprojectpop>div{
+    background-color: #4ea819;
+    margin-top: 0%;
+    
+}
+#createprojectpop a{
+    font-size: xx-large;
+    color: #111;
+    text-decoration: none;
+ }
+ #closeproject{
+    margin-left: 190px;
+ }
+ #createprojectpop input{
+    width: 200px;
+    height: 50px;
+ }
+ #createprojectpop button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #4ea819;
+    color: white;
+    font-size: x-large;
+ }
+ #createprojectpop #createnew{ 
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #4ea819;
+    color: white;
+    font-size: x-large;
+ }
+ #projectlist{
+    margin-left: 47%;
+ }

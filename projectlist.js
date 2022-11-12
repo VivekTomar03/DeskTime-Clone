@@ -1,3 +1,24 @@
+let listproject = JSON.parse(localStorage.getItem("project"))
+
+
+function showdata(data){
+  data.forEach(function(ele) {
+    let hourrate = document.querySelector("#hrsrate").innerText = ele.hours_rate
+
+    document.querySelector("#time").innerText =  ele.total_hours
+
+    document.querySelector("#cost").innerText = ele.total_cost
+
+    document.querySelector("#my").innerText = ele.name
+  })
+}
+showdata(listproject)
+
+
+
+
+
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("universal").style.marginLeft="250px"
@@ -83,3 +104,6 @@ function openNav() {
   logo.addEventListener("click" , function(){
     alert("You must logout first from profile")
   })
+
+  let date = new Date().toJSON().slice(0, 10);
+ document.querySelector("#date").innerText = date
