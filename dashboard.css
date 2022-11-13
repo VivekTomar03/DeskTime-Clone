@@ -34,6 +34,7 @@
     background-color: #4ea819;
 
 }
+
 #second_bar input{
     width: 150px;
     height: 30px;
@@ -87,7 +88,7 @@
   }
   #bell{
     font-size: 30px;
-    margin-left: 60%;
+    margin-left: 50%;
     
    
 
@@ -297,12 +298,13 @@
   font-size: larger;
 }
 #second_bar #acc{
- width: 85px;
+ width: 75px;
   color: white;
   font-size: larger;
 height: 60px;
-  margin-left: 50px;
+  margin-left: 40px;
   border-radius: 30px;
+  
   
 }
 
@@ -324,7 +326,7 @@ height: 60px;
  
 }
 #acc_info #cross{
-  margin-left: 200px;
+  margin-left: 170px;
   font-size: xx-large;
 }
 #logo{

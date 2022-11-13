@@ -7,6 +7,7 @@ form.addEventListener("submit" , function(eve){
   checkdata(data)
 })
 
+
 function checkdata(data){
     let email = document.querySelector("#email").value
     let pass = document.querySelector("#pass1").value
