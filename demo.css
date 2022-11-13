@@ -186,11 +186,11 @@
    margin-top: 80px;
    text-align: center;
    gap: 20px;
-   
+    
 }
 #row2>div{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    padding: 30px;
+    padding: 20px;
 }
 #row2 button{
     width: 200px;
@@ -421,3 +421,76 @@ img {vertical-align: middle;} */
   
   
   /* Slid Show end */
+
+  
+  @media screen and (min-width:700px) and (max-width:950px){
+    #logo>a>img{
+          margin-left: 45%;
+         width: 40%;
+        
+    }
+    #option{
+     display:none;
+    }
+    #medscr{
+     display: block;
+     width: 200px;
+     margin-right: 100px;
+     margin-top: 20px;
+    }
+    #medscr>select{
+     width: 200px;
+     height: 40px;
+     font-size: larger;
+    }
+   #row1{
+    grid-template-columns: repeat(1,1fr);
+   }
+   #row1 img{
+    margin-left: 50px;
+   }
+   #row2{
+    grid-template-columns: repeat(2,1fr);
+   }
+   #yt1 , #yt2 , #yt3{
+     grid-template-columns: repeat(1,1fr);
+   }
+   #row3{
+    grid-template-columns: repeat(1,1fr);
+   }
+}
+
+@media screen and (min-width:100px) and (max-width:699px){
+    #logo>a>img{
+          display: none;
+    }
+    #option{
+     display:none;
+    }
+    #medscr{
+     display: block;
+     width: 200px;
+     margin-right: 100px;
+     margin-top: 20px;
+    }
+    #medscr>select{
+     width: 200px;
+     height: 40px;
+     font-size: larger;
+    }
+    #row1{
+        grid-template-columns: repeat(1,1fr);
+       }
+       #row1 img{
+        margin-left: 50px;
+       }
+       #row2{
+        grid-template-columns: repeat(1,1fr);
+       }
+       #yt1 , #yt2 , #yt3{
+         grid-template-columns: repeat(1,1fr);
+       }
+       #row3{
+        grid-template-columns: repeat(1,1fr);
+       }
+}
